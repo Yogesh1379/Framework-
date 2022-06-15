@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[test is straeted]]>
+    </line>
+    <line>
+      <![CDATA[-- custom name --]]>
+    </line>
+    <line>
+      <![CDATA[Client]]>
+    </line>
+    <line>
+      <![CDATA[Customer]]>
+    </line>
+    <line>
+      <![CDATA[Product]]>
+    </line>
+    <line>
+      <![CDATA[Product Line]]>
+    </line>
+    <line>
+      <![CDATA[Project]]>
+    </line>
+    <line>
+      <![CDATA[test is executed]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="25491" started-at="2022-06-13T21:08:57 IST" finished-at="2022-06-13T21:09:23 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="25491" started-at="2022-06-13T21:08:57 IST" finished-at="2022-06-13T21:09:23 IST">
+      <class name="testpackage.TestOptionsOfDropdown">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testpackage.TestOptionsOfDropdown@76f2b07d]" name="setUp" is-config="true" duration-ms="16887" started-at="2022-06-13T21:08:57 IST" finished-at="2022-06-13T21:09:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="options()[pri:0, instance:testpackage.TestOptionsOfDropdown@76f2b07d]" name="options" duration-ms="7681" started-at="2022-06-13T21:09:14 IST" finished-at="2022-06-13T21:09:22 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[test is straeted]]>
+            </line>
+            <line>
+              <![CDATA[-- custom name --]]>
+            </line>
+            <line>
+              <![CDATA[Client]]>
+            </line>
+            <line>
+              <![CDATA[Customer]]>
+            </line>
+            <line>
+              <![CDATA[Product]]>
+            </line>
+            <line>
+              <![CDATA[Product Line]]>
+            </line>
+            <line>
+              <![CDATA[Project]]>
+            </line>
+            <line>
+              <![CDATA[test is executed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- options -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testpackage.TestOptionsOfDropdown@76f2b07d]" name="tearDown" is-config="true" duration-ms="858" started-at="2022-06-13T21:09:22 IST" finished-at="2022-06-13T21:09:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testpackage.TestOptionsOfDropdown -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

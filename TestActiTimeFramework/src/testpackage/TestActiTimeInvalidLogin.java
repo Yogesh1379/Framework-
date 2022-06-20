@@ -14,7 +14,7 @@ import pagepackage.LoginPage;
 @Listeners(CustomeListener.class)
 public class TestActiTimeInvalidLogin extends BaseTest{
 	
-	@Test
+	@Test(groups = "Functional")
 	public void invalidLogin() throws EncryptedDocumentException, IOException, InterruptedException
 	{
 		Flib flib = new Flib();

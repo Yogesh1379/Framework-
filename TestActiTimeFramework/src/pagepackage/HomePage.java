@@ -12,6 +12,8 @@ public class HomePage {
 	@FindBy(xpath = "//a[.='View Time-Track']") private WebElement viewTimeTrack;
 	@FindBy(linkText = "Settings") private WebElement settingLink;
 	@FindBy(linkText = "Logout") private WebElement logoutlink;
+	@FindBy(linkText = "Users") private WebElement userlink;
+	@FindBy(linkText = "Tasks") private WebElement taskslink;
 	
 	//-------------------------------------------------
 	
@@ -22,9 +24,24 @@ public class HomePage {
 	
 	
 	//----------------------------------------------------------------
+
+	
+	
 	public WebElement getCreateNewTask() {
 		return createNewTask;
 	}
+	public WebElement getTaskslink() {
+		return taskslink;
+	}
+
+
+
+	public WebElement getUserlink() {
+		return userlink;
+	}
+
+
+
 	public WebElement getLogoutlink() {
 		return logoutlink;
 	}

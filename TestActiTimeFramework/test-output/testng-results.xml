@@ -5,69 +5,42 @@
       <![CDATA[test is straeted]]>
     </line>
     <line>
-      <![CDATA[-- custom name --]]>
-    </line>
-    <line>
-      <![CDATA[Client]]>
-    </line>
-    <line>
-      <![CDATA[Customer]]>
-    </line>
-    <line>
-      <![CDATA[Product]]>
-    </line>
-    <line>
-      <![CDATA[Product Line]]>
-    </line>
-    <line>
-      <![CDATA[Project]]>
+      <![CDATA[customer is verify successfully]]>
     </line>
     <line>
       <![CDATA[test is executed]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="25491" started-at="2022-06-13T21:08:57 IST" finished-at="2022-06-13T21:09:23 IST">
+  <suite name="Default suite" duration-ms="33151" started-at="2022-06-20T15:59:23 IST" finished-at="2022-06-20T15:59:56 IST">
     <groups>
+      <group name="functional">
+        <method signature="TestActiTimeCustomerCheck.createCustomer()[pri:0, instance:testpackage.TestActiTimeCustomerCheck@76f2b07d]" name="createCustomer" class="testpackage.TestActiTimeCustomerCheck"/>
+      </group> <!-- functional -->
     </groups>
-    <test name="Default test" duration-ms="25491" started-at="2022-06-13T21:08:57 IST" finished-at="2022-06-13T21:09:23 IST">
-      <class name="testpackage.TestOptionsOfDropdown">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:testpackage.TestOptionsOfDropdown@76f2b07d]" name="setUp" is-config="true" duration-ms="16887" started-at="2022-06-13T21:08:57 IST" finished-at="2022-06-13T21:09:14 IST">
+    <test name="Default test" duration-ms="33151" started-at="2022-06-20T15:59:23 IST" finished-at="2022-06-20T15:59:56 IST">
+      <class name="testpackage.TestActiTimeCustomerCheck">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testpackage.TestActiTimeCustomerCheck@76f2b07d]" name="setUp" is-config="true" duration-ms="13241" started-at="2022-06-20T15:59:23 IST" finished-at="2022-06-20T15:59:36 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="options()[pri:0, instance:testpackage.TestOptionsOfDropdown@76f2b07d]" name="options" duration-ms="7681" started-at="2022-06-13T21:09:14 IST" finished-at="2022-06-13T21:09:22 IST">
+        <test-method status="PASS" signature="createCustomer()[pri:0, instance:testpackage.TestActiTimeCustomerCheck@76f2b07d]" name="createCustomer" duration-ms="14683" started-at="2022-06-20T15:59:36 IST" finished-at="2022-06-20T15:59:51 IST">
           <reporter-output>
             <line>
               <![CDATA[test is straeted]]>
             </line>
             <line>
-              <![CDATA[-- custom name --]]>
-            </line>
-            <line>
-              <![CDATA[Client]]>
-            </line>
-            <line>
-              <![CDATA[Customer]]>
-            </line>
-            <line>
-              <![CDATA[Product]]>
-            </line>
-            <line>
-              <![CDATA[Product Line]]>
-            </line>
-            <line>
-              <![CDATA[Project]]>
+              <![CDATA[customer is verify successfully]]>
             </line>
             <line>
               <![CDATA[test is executed]]>
             </line>
           </reporter-output>
-        </test-method> <!-- options -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testpackage.TestOptionsOfDropdown@76f2b07d]" name="tearDown" is-config="true" duration-ms="858" started-at="2022-06-13T21:09:22 IST" finished-at="2022-06-13T21:09:23 IST">
+        </test-method> <!-- createCustomer -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testpackage.TestActiTimeCustomerCheck@76f2b07d]" name="tearDown" is-config="true" duration-ms="5154" started-at="2022-06-20T15:59:51 IST" finished-at="2022-06-20T15:59:56 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testpackage.TestOptionsOfDropdown -->
+      </class> <!-- testpackage.TestActiTimeCustomerCheck -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

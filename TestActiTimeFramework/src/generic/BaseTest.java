@@ -18,7 +18,7 @@ import com.google.common.io.Files;
 
 public class BaseTest implements IAutoConstant {
 
-	protected WebDriver driver;
+	protected static  WebDriver driver;
 
 	@BeforeMethod
 	public void setUp() throws EncryptedDocumentException, IOException
@@ -69,9 +69,9 @@ public class BaseTest implements IAutoConstant {
 	}
 
 	@AfterMethod
-	public void tearDown()
+	public void tearDown() throws InterruptedException
 	{
-		
+		Thread.sleep(4000);
 		driver.quit();
 	}
 }

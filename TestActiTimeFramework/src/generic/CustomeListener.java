@@ -21,6 +21,10 @@ public class CustomeListener extends BaseTest implements ITestListener {
 
 	@Override
 	public void onTestFailure(ITestResult result) {
+		String methodName = result.getMethod().getMethodName();
+		Reporter.log("Test is failed screenshot has been taken", true);
+		failed(methodName);
+		
 		
 	}
 

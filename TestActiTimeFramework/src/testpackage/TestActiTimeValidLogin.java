@@ -9,12 +9,15 @@ import org.testng.annotations.Test;
 import generic.BaseTest;
 import generic.CustomeListener;
 import generic.Flib;
+import junit.framework.Assert;
+import pagepackage.HomePage;
 import pagepackage.LoginPage;
 
+@SuppressWarnings("deprecation")
 @Listeners(CustomeListener.class)
 public class TestActiTimeValidLogin extends BaseTest{
 	
-	 @Test
+	 @Test(groups = "functional")
 	 public void login() throws EncryptedDocumentException, IOException
 	 {
 		Flib flib = new Flib();
@@ -23,6 +26,24 @@ public class TestActiTimeValidLogin extends BaseTest{
 		
 		LoginPage lp = new LoginPage(driver);
 		lp.validLogin(username,password);
+		
+	HomePage hp = new HomePage(driver);
+	
+	boolean viewTimeTrack = hp.getViewTimeTrack().isDisplayed();
+	
+	Assert.assertEquals(viewTimeTrack, true);
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 		 //new github repository
 	 }
 }

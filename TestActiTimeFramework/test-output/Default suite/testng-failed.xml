@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testpackage.TestActiTimeCustomerCheck">
+      <class name="testpackage.TestOptionsOfDropdown">
         <methods>
-          <include name="createCustomer"/>
+          <include name="options"/>
           <include name="setUp"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- testpackage.TestActiTimeCustomerCheck -->
+      </class> <!-- testpackage.TestOptionsOfDropdown -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

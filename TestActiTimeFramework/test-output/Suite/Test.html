@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>3/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>6/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Jun 13 09:33:49 IST 2022</td>
+<td>Started on:</td><td>Mon Jun 20 16:24:08 IST 2022</td>
 </tr>
-<tr><td>Total time:</td><td>71 seconds (71152 ms)</td>
+<tr><td>Total time:</td><td>230 seconds (230630 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,109 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testpackage.TestActiTimeCustomerCheck.createCustomer()'><b>createCustomer</b><br>Test class: testpackage.TestActiTimeCustomerCheck<br/>
+<a href="#Output-794476802" onClick='toggleBox("Output-794476802", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-794476802" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-794476802">
+test is straeted<br/>
+Test is failed screenshot has been taken<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;dangade&quot;}
+  (Session info: chrome=102.0.5005.115)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.1.3&apos;, revision: &apos;7b1ebf28ef&apos;
+System info: host: &apos;DESKTOP-1EF3MD4&apos;, ip: &apos;192.168.23.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_181&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2e935fda50a1ba05f5ddbf33dae0f268, findElement {using=link text, value=dangade}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51545}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51545/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2e935fda50a1ba05f5ddbf33dae0f268
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:385)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:377)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at com.sun.proxy.$Proxy15.isDisplayed(Unknown Source)
+	at testpackage.TestActiTimeCustomerCheck.createCustomer(TestActiTimeCustomerCheck.java:46)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace794476802", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace794476802'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;dangade&quot;}
+  (Session info: chrome=102.0.5005.115)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.1.3&apos;, revision: &apos;7b1ebf28ef&apos;
+System info: host: &apos;DESKTOP-1EF3MD4&apos;, ip: &apos;192.168.23.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_181&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2e935fda50a1ba05f5ddbf33dae0f268, findElement {using=link text, value=dangade}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51545}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51545/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2e935fda50a1ba05f5ddbf33dae0f268
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:385)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:377)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at com.sun.proxy.$Proxy15.isDisplayed(Unknown Source)
+	at testpackage.TestActiTimeCustomerCheck.createCustomer(TestActiTimeCustomerCheck.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(Unknown Source)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>51</td>
+<td>testpackage.TestActiTimeCustomerCheck@3e57cd70</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -75,44 +178,89 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testpackage.TestActiTimeLogout.logout()'><b>logout</b><br>Test class: testpackage.TestActiTimeLogout<br/>
-<a href="#Output-993726367" onClick='toggleBox("Output-993726367", this, "Show output", "Hide output");'>Show output</a>
+<td title='testpackage.TestActiTimeValidLogin.login()'><b>login</b><br>Test class: testpackage.TestActiTimeValidLogin<br/>
+<a href="#Output-249109901" onClick='toggleBox("Output-249109901", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-993726367" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-993726367">
+<a href="#Output-249109901" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-249109901">
 test is straeted<br/>
+test is executed<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>testpackage.TestActiTimeValidLogin@9a7504c</td></tr>
+<tr>
+<td title='testpackage.TestActiTimeCreateCustomer.createCustomer()'><b>createCustomer</b><br>Test class: testpackage.TestActiTimeCreateCustomer<br/>
+<a href="#Output-452364286" onClick='toggleBox("Output-452364286", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-452364286" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-452364286">
+test is straeted<br/>
+test is executed<br/>
+</div>
+</td>
+<td></td>
+<td>9</td>
+<td>testpackage.TestActiTimeCreateCustomer@4232c52b</td></tr>
+<tr>
+<td title='testpackage.TestActiTimeInvalidLogin.invalidLogin()'><b>invalidLogin</b><br>Test class: testpackage.TestActiTimeInvalidLogin<br/>
+<a href="#Output-586831282" onClick='toggleBox("Output-586831282", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-586831282" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-586831282">
+test is straeted<br/>
+test is executed<br/>
+</div>
+</td>
+<td></td>
+<td>29</td>
+<td>testpackage.TestActiTimeInvalidLogin@32d2fa64</td></tr>
+<tr>
+<td title='testpackage.TestOptionsOfDropdown.options()'><b>options</b><br>Test class: testpackage.TestOptionsOfDropdown<br/>
+<a href="#Output-1415439780" onClick='toggleBox("Output-1415439780", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1415439780" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1415439780">
+test is straeted<br/>
+-- custom name --<br/>
+Client<br/>
+Customer<br/>
+Product<br/>
+Product Line<br/>
+Project<br/>
 test is executed<br/>
 </div>
 </td>
 <td></td>
 <td>10</td>
-<td>testpackage.TestActiTimeLogout@1a1d6a08</td></tr>
+<td>testpackage.TestOptionsOfDropdown@436e852b</td></tr>
 <tr>
-<td title='testpackage.TestActiTimeInvalidLogin.invalidLogin()'><b>invalidLogin</b><br>Test class: testpackage.TestActiTimeInvalidLogin<br/>
-<a href="#Output-1035211424" onClick='toggleBox("Output-1035211424", this, "Show output", "Hide output");'>Show output</a>
+<td title='testpackage.TestUploadFile.uploadFile()'><b>uploadFile</b><br>Test class: testpackage.TestUploadFile<br/>
+<a href="#Output-1196200241" onClick='toggleBox("Output-1196200241", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1035211424" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1035211424">
+<a href="#Output-1196200241" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1196200241">
 test is straeted<br/>
 test is executed<br/>
 </div>
 </td>
 <td></td>
-<td>35</td>
-<td>testpackage.TestActiTimeInvalidLogin@6ee52dcd</td></tr>
+<td>20</td>
+<td>testpackage.TestUploadFile@1d8d30f7</td></tr>
 <tr>
-<td title='testpackage.TestActiTimeValidLogin.login()'><b>login</b><br>Test class: testpackage.TestActiTimeValidLogin<br/>
-<a href="#Output-334362385" onClick='toggleBox("Output-334362385", this, "Show output", "Hide output");'>Show output</a>
+<td title='testpackage.TestActiTimeLogout.logout()'><b>logout</b><br>Test class: testpackage.TestActiTimeLogout<br/>
+<a href="#Output-1225554563" onClick='toggleBox("Output-1225554563", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-334362385" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-334362385">
+<a href="#Output-1225554563" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1225554563">
 test is straeted<br/>
 test is executed<br/>
 </div>
 </td>
 <td></td>
-<td>3</td>
-<td>testpackage.TestActiTimeValidLogin@fad74ee</td></tr>
+<td>1</td>
+<td>testpackage.TestActiTimeLogout@2c039ac6</td></tr>
 </table><p>
 </body>
 </html>

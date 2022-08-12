@@ -22,7 +22,7 @@ import pagepackage.TasksPage;
 
 public class TestActiTimeCustomerCheck extends BaseTest {
 	
-	@Test(groups = "functional")
+	@Test(groups = "Integration")
 	public void createCustomer() throws EncryptedDocumentException, IOException
 	{
 		Flib flib = new Flib();
@@ -36,11 +36,11 @@ public class TestActiTimeCustomerCheck extends BaseTest {
 		
 		TasksPage tp = new TasksPage(driver);
 		tp.getProjectsCustomerslink().click();
-	/*	tp.getCreateNewCustomerBtn().click();
+		tp.getCreateNewCustomerBtn().click();
 		tp.getCustomerName().sendKeys("dangade");
 		tp.getCreateCustomerSubmitBtn().click();
 		
-		*/
+		
 
 	
 		if(tp.getDangadeLink().isDisplayed())

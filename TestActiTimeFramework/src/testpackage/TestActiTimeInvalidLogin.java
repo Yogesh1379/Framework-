@@ -11,7 +11,7 @@ import generic.CustomeListener;
 import generic.Flib;
 import pagepackage.LoginPage;
 
-@Listeners(CustomeListener.class)
+@Listeners(CustomeListener.class) // use this line for take a screenshot on test failed
 public class TestActiTimeInvalidLogin extends BaseTest{
 	
 	@Test(groups = "Functional")
